@@ -1,0 +1,89 @@
+.bg-container {
+  background-color: #f9d423;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  padding: 20px;
+  font-family: 'Roboto';
+}
+.header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+.heading {
+  color: #e2a139;
+  font-size: 30px;
+  text-align: center;
+}
+.des {
+  color: #334155;
+  font-size: 20px;
+}
+.image-container {
+  width: 90%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  width: 180px;
+  height: 180px;
+  padding: 20px;
+}
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  border: none;
+  outline: none;
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  padding: 10px 20px 10px 20px;
+  border-width: 0px;
+  width: 160px;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  cursor: pointer;
+}
+.scores-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  margin-top: 55px;
+}
+.total-score-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.score-status,
+.score-text {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  color: #334155;
+}
